@@ -2,12 +2,6 @@
     list-style: none;  
 }
 
-/* body{
-    height: 100vh;
-    line-height: 2;
-    /* position: relative; */
-
-
 nav{
     padding: 0 5rem 0 5rem;
 }
@@ -90,6 +84,7 @@ button{
 .nav-content li:hover{
     background-color:chocolate;
 }
+
 .nav-content li .menu{
     position: absolute;
     top: 5rem;
@@ -100,6 +95,7 @@ button{
     transition: var(--transition);
     opacity: 0;
 }
+
 .nav-content li:hover .menu{
     top: 100%;
     visibility: visible;
@@ -211,18 +207,19 @@ button{
 }
 
 .info{
-   padding: 10rem 0 0 5rem;
-  
-   width: 650px;
+    padding: 10rem 0 0 5rem;
+    width: 650px;
 }
 
 .info h1{
     color: rgb(218, 82, 2);
 }
+
 .info p{
     width: 500px;
     color: #fff;
 }
+
 .home-btn{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
@@ -230,6 +227,7 @@ button{
     width: 300px;
     margin-top: 2rem;
 }
+
 .home-btn button{
    
     margin-top: 1.5rem;
@@ -238,6 +236,7 @@ button{
     margin-top: 5px;
     
 }
+
 .home-btn:hover button{
     background-color: rgba(74, 66, 186, 0.262);
     color: gold;

@@ -6,8 +6,6 @@ body{
     padding: 0;
     overflow-x: hidden;
     background-repeat: no-repeat;
-    /* screen: 100vh; */
-    /* max-width: 1024px; */
     background-size: cover;
 }
 
@@ -44,14 +42,7 @@ body{
     width: 310px;
     height: 200px;
 }
-/* .card-pic .card-bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 0;
-    width: 100%;
-    
-} */
+
 .card-pic .copied{
     text-align: center;
     font-size: 1.3rem;
@@ -264,11 +255,6 @@ body{
     color: goldenrod;
 }
 
-/* .content h2{
-    padding-top: 25px;
-    padding-right:50%;
-} */
-
 .contact-container{
     height: 100px;
     width: 400px;
@@ -331,9 +317,6 @@ form{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
 }
-/* .description{
-    margin-left: 45rem;
-} */
 
 .description textarea{
     height: 130px;
@@ -375,7 +358,8 @@ form{
         width: 80px;
       margin-top: -46px;
       margin-left: 370px;
-    }}
+    }
+}
 
 @media (min-width: 800px) and (max-width: 1099px){
     .form-info .fill{
