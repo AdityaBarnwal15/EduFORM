@@ -1,0 +1,217 @@
+/* section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+section .course-box{
+    padding-top: 10rem;
+} */
+
+/*
+            Cards Section
+*/
+.card-Container{
+    margin: 50px 100px 40px 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards{
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#card1{
+    background-color: green;
+}
+
+#card2{
+    background-color: brown;
+}
+
+#card3{
+    background-color: yellow;
+}
+
+#card4{
+    background-color: gray;
+}
+
+@media (max-width:1000px) {
+    .card-Container{
+        flex-wrap: wrap;
+    }
+
+    .cards{
+        margin: 10px;
+        width: 200px;
+    }
+}
+
+
+/*
+            Courses Section
+*/
+.courses-Container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 60px 100px 60px 100px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(18, 52, 53);
+}
+
+.courses{
+    width: 280px;
+    background-color: rgba(12, 5, 120, 0.984);
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+
+.course-Views{
+    margin: 0 0 10px 40px;
+    tab-size: 4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.courses h3{
+    width: 200px;
+    margin-left: 10px;
+    color: white;
+}
+
+.courses img{
+    width: 280px;
+    height: 150px;
+}
+
+.courses p{
+    margin-left: 10px;
+    color: antiquewhite;
+}
+
+.more{
+    display: none;
+}
+
+.myBtn{
+    background: none;
+    border: none;
+    color: rgb(163, 156, 58);
+    cursor: pointer;
+}
+
+.myBtn, .course-Price{
+    margin: 10px 20px;
+}
+
+.course-Price{
+    cursor: pointer;
+    background-color: burlywood;
+    padding: 5px;
+    margin-left: 80px;
+}
+
+@media (min-width: 1100px) and (max-width: 1300px){
+    .courses{
+        width: 230px;
+        margin: 20px;
+    }
+    
+    .courses h3{
+        width: 200px;
+    }
+    
+    .courses img{
+        width: 230px;
+        height: 140px;
+    }
+
+    .myBtn, .course-Price{
+        margin: 20px 0 10px 10px;
+    }
+    
+    .course-Price{
+        cursor: pointer;
+        background-color: burlywood;
+        padding: 5px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1099px){
+    .courses-Container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: hidden;
+    }
+    
+    .courses{
+        height: 250px;
+        width: 230px;
+        margin: 10px;
+    }
+    
+    .courses h3{
+        width: 200px;
+    }
+    
+    .courses img{
+        width: 230px;
+        height: 100px;
+    }
+
+    .myBtn, .course-Price{
+        margin: 10px 10px;
+    }
+    
+    .course-Price{
+        cursor: pointer;
+        background-color: burlywood;
+        padding: 5px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 799px){
+    .courses-Container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .courses{
+        width: 230px;
+        margin: 10px;
+    }
+    
+    .courses h3{
+        width: 210px;
+    }
+    
+    .courses img{
+        width: 230px;
+        height: 120px;
+    }
+
+    .myBtn, .course-Price{
+        margin: 10px 20px;
+    }
+    
+    .course-Price{
+        cursor: pointer;
+        background-color: burlywood;
+        padding: 5px;
+        margin-left: 10px;
+    }
+}

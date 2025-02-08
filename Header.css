@@ -1,0 +1,333 @@
+*{
+    list-style: none;  
+}
+
+/* body{
+    height: 100vh;
+    line-height: 2;
+    /* position: relative; */
+
+
+nav{
+    padding: 0 5rem 0 5rem;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .5rem;
+}
+
+.nav-header>div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo i{
+    color:brown;
+    font-size: 2em;
+}
+
+.logo span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.mobile i,
+.location i{
+    color:brown;
+    font-size: 1.5em;
+}
+
+.mobile span,
+.location span{
+    font-size: 1.2em;    
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+    padding:  .5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 1em;
+    background: brown;
+}
+
+.navbar .logo{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    height: 3rem;
+    background-color: #000;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    gap: 1rem;
+}
+
+.nav-content{
+    display: flex;
+    gap: 1.5rem; 
+}
+.nav-content li{
+    padding: .5rem 1rem .5rem 2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-content li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-content li:hover{
+    background-color:chocolate;
+}
+.nav-content li .menu{
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 9rem;
+    background: #000;
+    visibility: hidden;
+    transition: var(--transition);
+    opacity: 0;
+}
+.nav-content li:hover .menu{
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar>div:last-child{
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.navbar>div:last-child i{
+    cursor: pointer; 
+}
+
+.bars{
+  display: none;
+}
+
+@media (max-width:799px){
+    .nav-header{
+        display: none;
+        
+    }
+
+    .bars{
+        display:block;
+    }
+
+    .navbar{
+       background-color: #fff;
+       color: #000;
+       margin-top: 10px;
+       padding-bottom: 10px;
+    }
+    .nav-content li a{
+        color: #000;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navbar .logo{
+        display: block;
+        font-size: .8rem;
+    }
+
+    .nav-content{
+        position: absolute;
+        top: 6.5rem;
+        right: 1rem;
+        width: 60%;
+        flex-direction: column;
+        background-color: #fff;
+        transition: var(--transition);
+        z-index: 111;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .nav-content li .menu{
+        left: 5rem;
+        width: 11rem;
+        background: #fff;
+        visibility: hidden;
+        transition: var(--transition);
+        
+    }
+
+    .nav-content.active{
+        top: 4.1rem;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (min-width:800px) and (max-width:1099px){
+    .logo i{
+        color:brown;
+        font-size: 1em;
+    }
+    
+    .logo span{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .mobile i,
+    .location i{
+        color:brown;
+        font-size: 1em;
+    }
+
+    .mobile span,
+    .location span{
+        font-size: 1em;    
+        font-weight: bold;
+    }
+}
+
+/* *******************************************************************************Home section********************************************************************************  */
+.container{
+    background:url(../images/Bg.png); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info{
+   padding: 10rem 0 0 5rem;
+  
+   width: 650px;
+}
+
+.info h1{
+    color: rgb(218, 82, 2);
+}
+.info p{
+    width: 500px;
+    color: #fff;
+}
+.home-btn{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 1rem;
+    width: 300px;
+    margin-top: 2rem;
+}
+.home-btn button{
+   
+    margin-top: 1.5rem;
+    background-color: #c3d2e920;
+    color: rgb(240, 22, 22);
+    margin-top: 5px;
+    
+}
+.home-btn:hover button{
+    background-color: rgba(74, 66, 186, 0.262);
+    color: gold;
+    transition: .5s;
+}
+
+@media (max-width:799px){
+    .info{
+        width: 400px;
+    }
+
+    .info p{
+        font-size: .9rem;
+        width: 400px;
+        color: #000;
+    }
+
+    .info h1{
+        font-size: 1rem;
+        color: rgb(218, 82, 2);
+    }
+
+    .home-btn button{
+        margin-top: 1.5rem;
+        background-color: #c3d2e9c0;
+        color: rgb(17, 1, 1);
+        margin-top: 5px;
+    }
+}
+
+
+
+/* *******************************************************************************Aboutsection********************************************************************************  */
+.pic{
+    background: url(../images/library.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    padding-top: 10rem;
+    margin-bottom: 15rem;
+}
+
+.about-layout{
+    height: 500px;
+    width: 800px;
+    background-color: rgba(36, 42, 2, 0.773);
+    color: #fff;
+    margin-left:47rem;
+    margin-top: 13rem;
+}
+
+.about-content{
+    padding: 8rem 0 0 3.2rem;
+}
+
+.about-content span{
+    font-size: 1.8em;
+    color: goldenrod;
+}
+
+.about-layout:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media (max-width:799px){
+    .about-layout{
+        height: 700px;
+        width: 565px;
+        background-color: rgba(36, 42, 2, 0.773);
+        color: #fff;
+        margin-left:0rem; 
+        margin-top: 0rem;
+    
+    }
+    
+}
+
+@media (min-width:800px) and (max-width:1099px){
+    .about-layout{
+        height: 600px;
+        width: 550px;
+        background-color: rgba(36, 42, 2, 0.773);
+        color: #fff;
+        margin-left:33rem; 
+        margin-top: 10rem;
+    
+    }
+
+    .abt-logo{
+        display: none;  
+    }
+}

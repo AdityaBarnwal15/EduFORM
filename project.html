@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+        <!-- contains: navbar,home sectio, about section -->
+        <link rel="stylesheet" href="Header.css"> 
+        <!-- contains card section, course section -->
+        <link rel="stylesheet" href="Cards.css">
+        <!-- contains Teachers section -->
+        <link rel="stylesheet" href="Teacher.css">
+        <!-- contains event, review, contact, form section -->
+        <link rel="stylesheet" href="Event.css">
+        <!-- contain footer section -->
+        <link rel="stylesheet" href="Footer.css">
+        <title>College site</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-header">
+                <div class="logo">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <span>EduFORM</span>
+                </div>
+                <div>
+                <div class="mobile">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <span>1234567890</span>
+                </div>
+                <div class="location">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>Kritipur-4, Kathmandu</span>
+                </div>    
+
+                    <div class="header-button">
+                        <button>Login</button>
+                        <button>Register</button>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="navbar">
+                <div class="logo">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <span>EduFORM</span>
+                </div>
+
+                <ul class="nav-content">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Course">Courses</a></li>
+                    <li><a href="#Pages">Pages</a>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <ul class="menu">
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#">blog details</a></li>
+                    </ul></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+
+                <div class="menuBtn">
+                    <div class="search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="bars">
+                        <i class="ri-menu-2-line" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- *******************************************************************************Home******************************************************************************** -->
+        <div class="container">
+            <div class="info">
+                <h1 class="text">EduFORM Welcome's You Warmly To Be The Part Of Revolution On Education </h1>
+                <br>
+                <p>With the changing era EduFORM welcomes you to new way of learning. Learn with the real world interactions and examples. EduFORM is a place where your skills matters more than marks.  </p>
+                <div class="home-btn">
+                    <button>About Us</button>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- *******************************************************************************Cards******************************************************************************** -->
+
+        <section>
+            <div class="card-Container">
+                <div class="cards" id="card1">
+                    <h3 class="logo">&#127760; Science & Technology</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Facilis optio hic vel unde delectus omnis aut ducimus corporis ratione dolor.</p>
+                </div>
+
+                <div class="cards" id="card2">
+                    <h3 class="logo">&#128218; Books Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Facilis optio hic vel unde delectus omnis aut ducimus corporis ratione dolor.</p>
+                </div>
+                
+                <div class="cards" id="card3">
+                    <h3 class="logo">&#127891; Scholarship Faculty</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Facilis optio hic vel unde delectus omnis aut ducimus corporis ratione dolor.</p>
+                </div>
+                
+                <div class="cards" id="card4">
+                    <h3 class="logo">&#127979; Training Center</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Facilis optio hic vel unde delectus omnis aut ducimus corporis ratione dolor.</p>
+                </div>
+            </div>
+        </section>
+        <!-- *******************************************************************************About******************************************************************************** -->
+
+        <div class="about">
+            <div class="pic">
+                <div class="about-layout">
+                    <div class="about-content">
+                        <h3>ABOUT US</h3>
+                        <h2>Hello We Are EduFORM</h2>
+                        <br>
+                        <span> Trying to get creative and innovative!! Here we are.</span>
+                        <p>Make everyday special with us. Learn and experience new things. get on board with top instructors. Take a experience in resolving real life scenarios and problems.</p>
+                        <div class="home-btn">
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+    <!--         Courses Section           -->
+        <section>
+            <div class="course-box">
+                <div class="heading">
+                    <h1>Courses</h1>
+                </div>
+
+                <div class="courses-Container">
+                    <div class="courses">
+                        <img src="images/Web Development.png" alt="">
+                        <p class="course-Views">&#x1F441; 231,789 &nbsp; &#x29D7; 1.5 hrs</p>
+                        <h3>Web Development Course(Fundamentals)</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/App Development.png" alt="">
+                        <p class="course-Views">&#x1F441; 325,726 &nbsp; &#x29D7; 4 hrs</p>
+                        <h3>App Development Course(Advanced)</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/MERN Stack.png" alt="">
+                        <p class="course-Views">&#x1F441; 154,765 &nbsp; &#x29D7; 2.5 hrs</p>
+                        <h3>MERN Stack Web Development Course</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/Game Development.png" alt="">
+                        <p class="course-Views">&#x1F441; 487,136 &nbsp; &#x29D7; 5 hrs</p>
+                        <h3>Game Development Course</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/AI.png" alt="">
+                        <p class="course-Views">&#x1F441; 736,832 &nbsp; &#x29D7; 3 hrs</p>
+                        <h3>Artificial Intelligence Course</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/DBMS.png" alt="">
+                        <p class="course-Views">&#x1F441; 287,289 &nbsp; &#x29D7; 3.5 hrs</p>
+                        <h3>DBMS Course(Basics to Advanced)</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/UI-UX.png" alt="">
+                        <p class="course-Views">&#x1F441; 652,221 &nbsp; &#x29D7; 2 hrs</p>
+                        <h3>UI/UX Web Designing Course</h3>
+                        <p><span class="dots"></span><span class="more"> Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()"  class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+
+                    <div class="courses">
+                        <img src="images/Graphic Designing.png" alt="">
+                        <p class="course-Views">&#x1F441; 489,234 &nbsp; &#x29D7; 2 hrs</p>
+                        <h3>Graphic Designing Course</h3>
+                        <p><span class="dots"></span><span class="more">Libero molestias quisquam deleniti accusamus id possimus repudiandae suscipit ullam vitae rem?</span></p>
+                        <button onclick="myfunction()" class="myBtn">Read more <button class="course-Price">$0.99</button></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <!-- *******************************************************************************teachers section******************************************************************************** -->
+
+        <header class="header">
+            <h1>Our Teachers</h1>
+            <p>Meet Our Team</p>
+        </header>
+
+
+        <section class="teachers-section">
+            <div class="teacher-container">
+                <div class="teacher-card">
+                    <img src="images/teacher1.jpg" alt="Shishir Nepal">
+                    <h3>Shishir Nepal</h3>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="images/teacher2.jpg" alt="Aditya Barnwal">
+                    <h3>Aditya Barnwal</h3>
+                </div>
+
+                <div class="teacher-card">
+                    <img src="images/teacher3.jpg" alt="Bipul Shrestha">
+                    <h3>Bipul Shrestha</h3>
+                </div>
+            </div>
+        </section>
+        <!-- *******************************************************************************event******************************************************************************** -->
+
+        <div class="event-container">
+            <div class="topic">
+                <h4>OUR BLOG </h4>
+                <h2>Check Our Events</h2>
+            </div>
+
+            <div class="card">
+                <div class="event-card">
+                    <div class="card-pic">
+                        <img src="images/QA.png" alt="pic dev">
+                        <div class="card-bg">
+
+                        </div>
+
+                        <div class="copied">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card-info">
+                        <p>Jan 30,2025</p>
+                        <h3>Learn Quality Assurance</h3>
+                        <div class="p-icon">
+                            <span><i class="fa fa-female" aria-hidden="true"></i> Aashma Khadka</span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i> 15 comments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="card-pic">
+                        <img src="images/iot.jpg" alt="pic dev">
+                        <div class="card-bg">
+
+                        </div>
+
+                        <div class="copied">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card-info">
+                        <p>Jan 30,2025</p>
+                        <h3>Learn Internet Of Things</h3>
+                        <div class="p-icon">
+                            <span><i class="fa fa-male" aria-hidden="true"></i> Rajesh Hamal</span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i> 25 comments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="card-pic">
+                        <img src="images/DA.jpeg" alt="pic dev">
+                        <div class="card-bg">
+                            
+                        </div>
+
+                        <div class="copied">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card-info">
+                        <p>Jan 30,2025</p>
+                        <h3>Learn Digital Marketing</h3>
+                        <div class="p-icon">
+                            <span><i class="fa fa-female" aria-hidden="true"></i> Bartika rai</span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i> 19 comments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="card-pic">
+                        <img src="images/web dev.jpg" alt="pic dev">
+                        <div class="card-bg">
+
+                        </div>
+
+                        <div class="copied">
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="card-info">
+                        <p>Jan 30,2025</p>
+                        <h3>Learn Web Development</h3>
+                        <div class="p-icon">
+                            <span><i class="fa fa-male" aria-hidden="true"></i> Paras Khadka</span>
+                            <span><i class="fa fa-commenting-o" aria-hidden="true"></i> 19 comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- *********************************************************************************Review************************************************************************************************** -->
+        <div class="review">
+            <div class="comment">
+                <h4>Testimonial </h4>
+                <h2>Student's View On EduFORM</h2>
+            </div>
+
+            <div class="box">
+                <div class="review-box">
+                    <div class="review-pic">
+                        <img src="images/rev-1.jpg" alt="pic dev">
+                    </div>
+
+                    <div class="review-info">
+                        <div class="info-top">
+                            <h3>Gagan Dangi</h3>
+                            <div class="rating">
+                                <img src="images/rating (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="thoughts">
+                            <p>Have been really helpfull in securing job. Took parts in real world projects which helped me build my resume for securing job.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-box">
+                    <div class="review-pic">
+                        <img src="images/rev-2.jpeg" alt="pic dev">
+                    </div>
+
+                    <div class="review-info">
+                        <div class="info-top">
+                            <h3>Suresh Gorathoki</h3>
+                            <div class="rating">
+                                <img src="images/rating (1).png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="thoughts">
+                            <p>Have been really helpfull in securing job. Took parts in real world projects which helped me build my resume for securing job.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="review-box">
+                    <div class="review-pic">
+                        <img src="images/rev-3.jpg" alt="pic dev">
+                    </div>
+
+                    <div class="review-info">
+                        <div class="info-top">
+                            <h3>Pratima Adhikari</h3>
+                            <div class="rating">
+                                <img src="images/rating.png" alt="">
+                            </div>
+                        </div>
+                        <div class="thoughts">
+                            <p>Have been really helpfull in securing job. Took parts in real world projects which helped me build my resume for securing job.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- *********************************************************************************Contact us************************************************************************************************** -->
+        <div class="contact">
+            <div class="contact-content">
+                <h4>CONTACT US </h4>
+                <!-- <h2>Where To Reach Us!!</h2> -->
+            </div>
+
+            <div class="contact-main">
+                <div class="contact-container">
+                    <div class="contact-logo">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <div class="contact-box">
+                            <h3>Kathmandu, Nepal</h3>
+                            <h4>Kritipur-4, Kathmandu</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-logo">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+
+                        <div class="contact-box">
+                            <h3>1234567890</h3>
+                            <h4>Sun to Fri 9am to 5pm</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-logo">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div class="contact-box">
+                            <h3>EduFORM2025@gmail.com</h3>
+                            <h4>Send your info in this email </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *********************************************************************************Form************************************************************************************************** -->
+        <form id="messageForm">
+            <div class="form-info">
+                <div class="form-space">
+                    <input type="text" class="fill"placeholder="Enter your name" /><br>
+                    <input type="text"class="fill" placeholder="Enter your email" /><br>
+                    <input type="text"class="fill" placeholder="Enter your field" /><br>
+                </div>
+
+                <div class="description">
+                    <div class="query">
+                        <textarea name="message" cols="10" rows="10" placeholder="Enter message"></textarea>
+                        <div class="done">
+                            <button type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- *********************************************************************************Footer************************************************************************************************** -->
+        <footer id="footer">
+            <div class="footer-Container">
+                <div class="footer-Row">
+                    <div class="footer-Col">
+                        <div class="footer-logo">
+                            <i class="fa fa-university" aria-hidden="true"></i>
+                            <span> EduFORM</span>
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing Ab alias natus accusamus molestias similique, fugiat aut rerum neque quia! Quaerat, iusto impedit aperiam iure, laborum obcaecati.</p>
+                    </div>
+                    
+                    <div class="footer-Col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-Col">
+                        <h3>Features</h3>
+                        <ul>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-Col">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Experts</a></li>
+                            <li><a href="#">Agencies</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-Col">
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li><i>Kritipur-4, kathmandu</i></li>
+                            <li><i>Kathmandu, Nepal</i></li>
+                            <br>
+                            <li><a href="#">&phone; <i>1234567890</i></a></li>
+                            <li><a href="#">&#9993; <i>EduFORM2025@gmail.com</i></a></li>
+                            <li><a href="#">&#127760; <i>www.EduFORM.com</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-Copyright">
+                <p>All Rights Reserved | &copy; EduFORM<br></p>
+            </div> 
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

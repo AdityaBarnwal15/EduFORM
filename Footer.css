@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.footer-Container{
+    background-color: #0d1b40;
+    padding: 50px 80px;
+    margin: auto;
+}
+
+.footer-Row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-Col:first-child{
+    flex: 1.3;
+    min-width: 300px;
+}
+
+.footer-Col{
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-Col h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-Col ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-Col ul li{
+    margin-bottom: 10px;
+}
+
+.footer-Col ul li a,
+.footer-Col ul li{
+    text-decoration: none;
+    color: #ccc;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.footer-Col ul li a:hover{
+    color: yellow;
+}
+
+.footer-Col p{
+    line-height: 1.6;
+    width: 280px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-logo i {
+    font-size: 28px;
+    color: #f1a706;
+    font-weight: bold;
+}
+
+.footer-logo span{
+    color: #fff;
+}
+
+.footer-Col p{
+    padding-top: 1.5rem;
+}
+
+.footer-Copyright{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#collegeName{
+    font-size: 24px;
+}
+
+#image{
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 30px;
+}
