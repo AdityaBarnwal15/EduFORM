@@ -1,0 +1,394 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event-container{
+    margin-top: 100px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,0.5fr);
+    padding: 3rem 5rem 0 5rem;
+    gap: .5rem;
+}
+
+.event-card{
+    height: 400px;
+}
+
+.card .card-pic{
+    position: relative;
+}
+
+.topic h4{
+    padding-left: 45%;
+    padding-bottom: 15px;
+    color: goldenrod;
+}
+
+.topic h2{
+    padding-left: 41%;
+}
+
+.card-pic img{
+    width: 310px;
+    height: 200px;
+}
+
+.card-pic .copied{
+    text-align: center;
+    font-size: 1.3rem;
+    background: gold;
+    padding: 0.5rem;
+    border: .4rem solid white;
+    position: absolute;
+    right: 27%;
+    bottom: -1.5rem;
+ 
+}
+
+.event-card .card-info{
+    padding: 1rem;
+   
+}
+
+.event-card .card-info h3{
+    text-transform: capitalize;
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+}
+
+.card-info p{
+    font-size: 1rem;
+    padding-bottom: 15px;
+    color: rgb(231, 161, 55);
+}
+
+.card-info h3{
+    margin-top: -13px;
+    margin-bottom: 2px;
+}
+
+.event-card:hover{
+    cursor: pointer;
+}
+
+.p-icon{
+    display: flex;
+    gap: 1rem;
+}
+
+.p-icon span{
+    font-size: 1rem;
+}
+
+@media (max-width:1024px){
+    .card{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (min-width:800px) and (max-width: 1100px) {
+
+    .card{
+        grid-template-columns: repeat(2,1fr);
+        padding: 3rem 5rem 0 5rem;
+        gap: 2rem;
+    }
+    .topic h2{
+        padding-left: 35%;
+    }
+
+    .event-card{
+        width: 300px;
+    }
+
+    .card-pic .copied{
+        text-align: center;
+        font-size: 1rem;
+        background: gold;
+        padding: 0.5rem;
+        border: .4rem solid white;
+        position: absolute;
+        right: 40%;
+        bottom: -1.5rem;
+    }
+
+    .card-pic img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .card-info p{
+        font-size: .8rem;
+    }
+
+    .p-icon span{
+        font-size: .9rem;
+    }
+}
+
+
+
+/* **************************************************************************Review******************************************************************************************************** */
+.comment h4{
+    padding-left: 45%;
+    padding-bottom: 15px;
+    color: goldenrod;
+}
+
+.comment h2{
+    padding-left: 38%;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 3rem 5rem 0 5rem;
+}
+
+.review-box{
+ 
+    width: 400px;
+    height: 250px;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+}
+
+.info-top h3{
+    padding-left:120px;
+}
+
+.info-top .rating{
+    margin-top:-20px;
+    padding-left: 150px;
+}
+
+.review-pic img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: .4rem solid white;
+    margin-left: 25px;
+    margin-top: -26px;
+   top: 5rem;
+}
+
+.thoughts{
+    padding: 0 10px 0 10px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.rating img{
+    height: 70px;
+}
+
+@media (max-width:799px){
+    .box{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .comment h2{
+        font-size: 1rem;
+        padding-left: 35%;
+    }
+}
+
+@media (min-width:800px) and (max-width: 1100px){
+    .box{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+        padding: 3rem 5rem 0 4rem;
+}
+
+.comment h2{
+    padding-left: 28%;
+}
+.review-box{
+    width: 350px;
+    height: 250px;
+}
+
+.review-pic img{
+    height: 40px;
+    width: 40px;  
+}
+.rating img{
+    height: 40px;
+    margin-top: 10px
+}
+
+.info-top h3{
+    padding-left:100px;
+}
+
+.thoughts{
+    padding: 0 10px 0 10px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+}
+/* **************************************************** */
+.contact{
+    padding: 3rem 5rem 0 5rem;
+}
+.contact-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+.contact-content h4{
+    padding-left: 45%;
+    padding-bottom: 15px;
+    color: goldenrod;
+}
+
+.contact-container{
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(248, 163, 6);
+    color:#fff;
+}
+
+.contact-logo i{
+    float: left;
+    padding:.6rem 0 0 2rem;
+    font-size: 1.5rem;
+}
+
+.contact-box{
+    margin-top: 1.5rem ;
+    margin-left: 4rem;
+}
+
+.contact-box h4{
+    margin-top:1px;
+}
+
+@media (max-width:799px){
+    .contact-main{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+   
+}
+
+@media (min-width: 800px) and (max-width:1100px){
+    .contact-main{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+
+    .contact-container{
+        height: 100px;
+        width: 350px;
+    }
+}
+
+/* ***************************************************************************Form***************************************************************************************************** */
+form{
+    padding: 8rem 5rem 5rem 5rem;
+}
+
+.form-info .fill{
+    height: 30px;
+    width: 650px;
+    background-color: rgba(176, 172, 172, 0.175);   
+    border-color: rgba(176, 172, 172, 0.175);
+    margin-bottom: 15px;
+}
+
+.form-info {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.description textarea{
+    height: 130px;
+    width: 685px;
+    background-color: rgba(176, 172, 172, 0.175);   
+    border-color: rgba(176, 172, 172, 0.175);
+}
+
+.done button{
+    position: absolute;
+    height: 36px;
+    width: 80px;
+    background-color: rgb(248, 163, 6);
+    border-color: rgb(248, 163, 6);
+    margin-top: -40px;
+    margin-left: 605px;
+}
+
+@media (max-width:799px){
+
+    .form-info {
+        grid-template-columns:1fr;
+     }
+
+    .form-info .fill{
+        height: 30px;
+        width: 450px;
+    }
+
+    .description textarea{
+        height: 130px;
+        width: 450px;
+        background-color: rgba(176, 172, 172, 0.175);   
+        border-color: rgba(176, 172, 172, 0.175);
+    }
+    
+    .done button{
+        height: 36px;
+        width: 80px;
+      margin-top: -46px;
+      margin-left: 370px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1099px){
+    .form-info .fill{
+        height: 30px;
+        width: 640px;
+    }
+
+    .form-info{
+        grid-template-columns:1fr;
+        gap: 1rem;
+     }
+
+     .description textarea{
+        height: 130px;
+        width: 640px;
+        background-color: rgba(176, 172, 172, 0.175);   
+        border-color: rgba(176, 172, 172, 0.175);
+    }
+    /* .form-info .form-space{
+        padding-right: 50px;
+    } */
+    .done button{
+        height: 36px;
+        width: 80px;
+        margin-top: -46px;
+        margin-left: 560px;
+    }
+}
+
