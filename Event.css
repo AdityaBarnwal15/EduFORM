@@ -381,9 +381,7 @@ form{
         background-color: rgba(176, 172, 172, 0.175);   
         border-color: rgba(176, 172, 172, 0.175);
     }
-    /* .form-info .form-space{
-        padding-right: 50px;
-    } */
+   
     .done button{
         height: 36px;
         width: 80px;
